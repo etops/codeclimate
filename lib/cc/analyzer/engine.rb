@@ -53,7 +53,6 @@ module CC
 
       def container_options
         [
-          "--cap-drop", "all",
           "--label", "com.codeclimate.label=#{@label}",
           "--memory", memory_limit,
           "--memory-swap", "-1",
